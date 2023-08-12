@@ -22,6 +22,12 @@ body {
   max-height: 55px;
 }
 
+@media (min-width: 768px) {
+  .navbar-logo {
+    max-height: 65px;
+  }
+}
+
 .newsletter-section {
   margin-top: 80px;
   padding: 80px 20px;
