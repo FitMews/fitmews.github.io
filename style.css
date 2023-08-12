@@ -72,34 +72,18 @@ body {
   padding: 50px 20px;
 }
 
-.post-content {
-  padding: 12px;
-}
-
-.post-card {
-  margin-bottom: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-.post-image {
-  max-width: 100%;
-  margin-bottom: 10px;
-  height: 300px;
-  border-radius: 0;
-}
-
 .post-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 0px;
+  flex: 1;
 }
 
 .post-description {
   font-size: 14px;
   color: #888;
   margin-bottom: 24px;
+  flex: 1;
 }
 
 .post-tags {
@@ -107,6 +91,7 @@ body {
   color: #888;
   margin-top: 0px;
   padding-bottom: 10px;
+  flex: 1;
 }
 
 .tag {
@@ -116,22 +101,6 @@ body {
   margin-right: 5px;
   color: #28a745;
   font-weight: bold;
-}
-
-.read-more-button {
-  background-color: transparent;
-  color: #28a745;
-  padding: 8px 16px;
-  border: 1px solid #28a745;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.read-more-button:hover {
-  background-color: #28a745;
-  color: #e6e6e6;
-  text-decoration: none;
 }
 
 .custom-container {
