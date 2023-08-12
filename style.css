@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0px 5px 13px rgba(123, 255, 163, 0.411);
+}
+
+.navbar-logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 70px;
+}
+
+.newsletter-section {
+  margin-top: 80px;
+  padding: 80px 20px;
+}
+
+.newsletter-title {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.newsletter-description {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.newsletter-image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.recent-posts-section {
+  padding: 50px 20px;
+}
+
+.post-content {
+  padding: 12px;
+}
+
+.post-card {
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.post-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.post-description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.post-tags {
+  font-size: 10px;
+  color: #888;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  /* padding: 3px 6px; */
+  border-radius: 3px;
+  margin-right: 5px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.read-more-button {
+  background-color: transparent;
+  color: #28a745;
+  padding: 3px 16px;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: #28a745;
+  color: #e6e6e6;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 80px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  max-height: 40px;
+  margin: 20px;
+}
